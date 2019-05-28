@@ -1,0 +1,177 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:wpf="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="Reproductor UXLAB" Height="924" Width="1280">
+    <Grid x:Name="MultimediaGrid" Margin="5,5,5,10" >
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="350"/>
+            <RowDefinition Height="350"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Menú">
+                    <MenuItem Header="Abrir grabación" Click="OpenDirectory_Click">
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Salir" Click="exit_menuClick" />
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <wpf:VlcControl Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="MyControl" Margin="10,28,0,14"/>
+        <wpf:VlcControl Grid.Row="0" Grid.Column="2" x:Name="MyControl2" Margin="55,28,15,14" Grid.ColumnSpan="2"/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Margin="0,0,10,0">
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Width="1212">
+                <Expander x:Name="expanderEEGOndas"  Header="Gráfica EEG (Alpha)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGOndasGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="EEGPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineEEG" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGOndasBetaalto"  Header="Gráfica EEG (Beta alto)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGOndasBetaaltoGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="EEGPlotBetaalto" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineEEGBetaalto" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGOndasBetabajo"  Header="Gráfica EEG (Beta bajo)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGOndasBetabajoGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="EEGPlotBetabajo" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineEEGBetabajo" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGOndasTheta"  Header="Gráfica EEG (Theta)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGOndasThetaGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="EEGPlotTheta" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineEEGTheta" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGOndasGamma"  Header="Gráfica EEG (Gamma)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGOndasGammaGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="EEGPlotGamma" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineEEGGamma" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGRitmos" Header="Ritmos mentales (Entusiasmo)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGRitmosGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="BrainRPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineBrainR" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGRelajacion" Header="Ritmos mentales (Relajación)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGRelajacionGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="BrainRelajacionPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineBrainRelajacion" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGCompromiso" Header="Ritmos mentales (Compromiso)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGCompromisoGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="BrainCompromisoPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineBrainCompromiso" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGEstres" Header="Ritmos mentales (Estrés)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGEstresGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="BrainEstresPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineBrainEstres" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGInteres" Header="Ritmos mentales (Interés)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGInteresGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="BrainInteresPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineBrainInteres" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderEEGConcentracion" Header="Ritmos mentales (Atención)" IsExpanded="True">
+                    <Grid x:Name="ExpanderEEGConcentracion" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView x:Name="BrainConcentracionPlot" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"/>
+                        <Line Visibility="Hidden"  X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineBrainConcentracion" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderECG"   Header="Sensor ECG" IsExpanded="True">
+                    <Grid x:Name="ExpanderECGGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="SerialPlot"/>
+                        <Line Visibility="Hidden" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineECG" />
+                    </Grid>
+                </Expander>
+                <Expander x:Name="expanderGSR"   Header="Sensor GSR" IsExpanded="True">
+                    <Grid x:Name="ExpanderGSRGrid" Margin="5,0,-2,0" Height="124" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <oxy:PlotView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="GSRPlot"/>
+                        <Line Visibility="Hidden" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" X1="0" Y1="30" X2="0" Y2="130" Stroke="Black" StrokeThickness="2" Margin="50,0,0,0" x:Name="lineGSR" />
+                    </Grid>
+                </Expander>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Slider Grid.Row="2" TickPlacement="BottomRight" IsEnabled="False" TickFrequency="5" IsSnapToTickEnabled="False" Grid.Column="0" Grid.ColumnSpan="3" Thumb.DragStarted="Slider_DragStarted" Thumb.DragCompleted="Slider_DragCompleted" Minimum="0" Maximum="1" SmallChange="0.01" Value="{Binding TotalTime, Mode=TwoWay}" x:Name="timeSlider" MinHeight="40" Margin="15,2,0,10"/>
+        <Button Grid.Row="3" Grid.Column="1" Height="52" Width="52"  Click="OnPlayButtonClick" x:Name="Play" RenderTransformOrigin="0.761,1.851" Grid.ColumnSpan="2">
+            <StackPanel>
+                <Image x:Name="imgBtnPlay"  Source="Pictures/play.png" />
+            </StackPanel>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="1" Height="52"  Click="OnRewindButtonClick" x:Name="Rewind" RenderTransformOrigin="0.761,1.851" Margin="449,3,79,1">
+            <StackPanel>
+                <Image x:Name="imgBtnRewind"  Source="Pictures/Rewind.png" />
+            </StackPanel>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" Height="52"  Click="OnForwardButtonClick" x:Name="Forward" RenderTransformOrigin="0.761,1.851" Margin="79,3,448,2">
+            <StackPanel>
+                <Image x:Name="imgBtnforward"  Source="Pictures/Forward.png" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

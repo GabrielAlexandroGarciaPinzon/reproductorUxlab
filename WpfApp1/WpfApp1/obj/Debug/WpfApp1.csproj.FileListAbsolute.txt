@@ -1,0 +1,59 @@
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Vlc.DotNet.Wpf.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\OxyPlot.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\OxyPlot.pdb
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\OxyPlot.xml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.xml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.Sensors.xml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\DQ\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.Sensors.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\OxyPlot.pdb
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\OxyPlot.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\KNF\Desktop\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
